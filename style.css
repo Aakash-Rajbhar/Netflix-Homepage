@@ -24,6 +24,7 @@ body{
     position: relative;
     z-index: 2;
     border-bottom: 8px solid #333;
+    overflow: hidden;
 }
 
 nav{
@@ -202,11 +203,12 @@ hr{
     display: block;
     width: 90%;
     margin: auto;
+    position: relative;
 }
 
 .video-overlay{
     position: absolute;
-    top: 92px;
+    top: 21%;
     left: 16.6%;
     display: block;
     width: 65.8%;
@@ -361,6 +363,13 @@ input[type="radio"]{
 
 /* Media queries */
 
+@media only screen and (max-width:820px){
+    .video-overlay{
+        top: 2.7rem;
+    }
+}
+
+
 @media only screen and (max-width:600px){
     .logo{
         width: 100px;
@@ -450,9 +459,4 @@ input[type="radio"]{
         font-size: 20px;
     }
 
-    
-
-
-
-    
 }
