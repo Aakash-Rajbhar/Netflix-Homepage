@@ -9,6 +9,10 @@ This project is a clone of the Netflix homepage, created as part of a web develo
 ## Demo
 https://aakash-rajbhar.github.io/Netflix-Homepage/
 
+## Screenshots
+
+![Screenshot 1](images/Screenshot.png)
+
 ## Features
 
 - Header: The header section includes the Netflix logo, navigation elements, and a language selector.
