@@ -236,6 +236,7 @@ hr{
     display: block;
     width: 65.8%;
     margin: auto;
+    z-index: -1;
 }
 
 .video1{
